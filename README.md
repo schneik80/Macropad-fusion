@@ -5,7 +5,7 @@ This circuit python document configures a set of shortcuts for Autodesk Fusion 3
 
 Commands are left to right
 
- #### 1st row - Shortcuts
+ ### 1st row - Shortcuts
 
 - Undo 
 - Redo 
@@ -29,5 +29,6 @@ Commands are left to right
 - Shaded with edges
 - Wireframe with hidden edges
 
-# Encoder button
+### Encoder button
+
 - Save
