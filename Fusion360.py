@@ -16,13 +16,13 @@ app = {                         # REQUIRED dict, must be named 'app'
         (0x004000, 'Lasso',     '2'),   # Select by Lasso
         (0x004000, 'Paint',     '3'),   # Select by paint
         # 3rd row ----------
-        (0x101010, '< WS',      [Keycode.COMMAND, '[']),   # Direct (point) selection
-        (0x000040, 'Data',      [Keycode.COMMAND, Keycode.OPTION, 'p']),   # Rotate selection
-        (0x101010, 'WS >',      [Keycode.COMMAND, ']']),    # Draw ellipse
+        (0x101010, '< WS',      [Keycode.COMMAND, '[']),                    # Previous Workspace
+        (0x000040, 'Data',      [Keycode.COMMAND, Keycode.OPTION, 'p']),    # Data Pane
+        (0x101010, 'WS >',      [Keycode.COMMAND, ']']),                    # Next Workspace
         # 4th row ----------
-        (0x303000, 'Shaded',    [Keycode.CONTROL, '4']),   # Cycle eyedropper/measure modes
-        (0x303000, 'Edges',     [Keycode.CONTROL, '6']),   # Scale selection
-        (0x303000, 'Wire',      [Keycode.CONTROL, '8']),   # Type tool
+        (0x303000, 'Shaded',    [Keycode.CONTROL, '4']),   # Shaded no edges visual style
+        (0x303000, 'Edges',     [Keycode.CONTROL, '6']),   # Shaded with edges
+        (0x303000, 'Wire',      [Keycode.CONTROL, '8']),   # Wireframe with hidden edges
         # Encoder button ---
         (0x000000, '',          [Keycode.COMMAND, 's'])   # Save
     ]
